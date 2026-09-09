@@ -1,7 +1,5 @@
 # INSTANCE focal-mechanism prediction
 
-[中文使用说明](README.zh-CN.md)
-
 Predict a 128 × 128 focal-mechanism beachball from 20 three-component seismic
 waveforms and station geometry, then estimate strike, dip and rake (SDR).
 The network combines a shared temporal convolutional network (TCN), a Set
@@ -193,26 +191,4 @@ is evaluated for before/after comparison and does not select the checkpoint.
 No dataset means the original published training run cannot be reproduced from
 this repository alone. See the [model card](docs/MODEL_CARD.md) for provenance.
 
-## Verify and share
 
-```bash
-python -m unittest discover -s tests -v
-# Linux: check the preserved model file
-(cd checkpoints && sha256sum -c SHA256SUMS)
-```
-
-Tests exercise preprocessing, event-ID preservation, synthetic augmentation,
-checkpoint inference, one-epoch training and fine-tuning, SDR conversion and
-reference-free output. All signals and test outputs live in temporary directories.
-See [validation details](docs/VALIDATION.md) for the actual release checks.
-
-To share, create a GitHub repository and push **this directory**, not the original
-experiment tree. `.gitignore` excludes data and generated checkpoints except the
-released model. The ~14 MB checkpoint fits in ordinary Git; GitHub's file limits
-are documented in its [large-file guide](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
-No remote repository has been created by the release-preparation process.
-
-Code provenance and adaptations are recorded in [source_manifest.json](docs/source_manifest.json)
-and [release notes](docs/RELEASE_NOTES.md). A redistribution license has not been
-selected for this preparation; the repository owner should add the intended
-code/model license when publishing.
