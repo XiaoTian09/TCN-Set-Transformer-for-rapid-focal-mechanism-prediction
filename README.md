@@ -1,0 +1,1 @@
+# TCN-Set-Transformer-for-rapid-focal-mechanism-prediction
