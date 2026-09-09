@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+.pytest_cache/
+data/
+outputs/
+*.h5
+*.hdf5
+*.mat
+*.sac
+*.SAC
+*.pt
+!checkpoints/best_checkpoint.pt

@@ -1,0 +1,10 @@
+name: instance-fm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -r requirements.txt
+# After creation install a CPU/GPU PyTorch build using README.md.
+# Optional ObsPy: python -m pip install -r requirements-optional.txt

@@ -1,0 +1,22 @@
+{
+  "train_h5": "data/transfer/train.h5",
+  "validation_h5": "data/transfer/validation.h5",
+  "test_h5": "data/transfer/test.h5",
+  "pretrained_checkpoint": "outputs/pretrain/best_checkpoint.pt",
+  "output_dir": "outputs/finetune",
+  "seed": 20260807,
+  "batch_size": 16,
+  "epochs": 30,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.0001,
+  "dropout": 0.1,
+  "freeze_tcn": true,
+  "early_stopping_patience": 6,
+  "lr_patience": 2,
+  "min_learning_rate": 1e-07,
+  "num_workers": 2,
+  "precision": "bfloat16",
+  "gpu": "0",
+  "loss": "unweighted_pixel_mse",
+  "output_mode": "raw"
+}

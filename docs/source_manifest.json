@@ -1,0 +1,58 @@
+[
+  {
+    "source": "loss_function_comparison/train_tcn_settransformer_beachball_mse_pytorch.py",
+    "release": "train_tcn_settransformer_beachball_mse_pytorch.py",
+    "source_sha256": "e0253a69defbdd534318a2b6df5b313ea7ea50de08c01509951ac0bdfaff4ec7"
+  },
+  {
+    "source": "FMNET/beachball_sdr_optimized.py",
+    "release": "beachball_sdr_optimized.py",
+    "source_sha256": "6224a430e7251ca7bccdb92fac1b301cdf04f7aecedc05f1dcd7428dc5161914"
+  },
+  {
+    "source": "FMNET/model_sdr_sincos/kagan.py",
+    "release": "model_sdr_sincos/kagan.py",
+    "source_sha256": "1b59947dd7719da51a1d35eb4da8932b443bb49e341e6b7c4018537739bd4c95"
+  },
+  {
+    "source": "FMNET/model_sdr_sincos/angles2tensor.py",
+    "release": "model_sdr_sincos/angles2tensor.py",
+    "source_sha256": "9f584372f23c19168b9226f7914f15d3e9b0b7a9d88ed4c9bdbe729b0ab9fed3"
+  },
+  {
+    "source": "instance_rawdata/beachball_generator.py",
+    "release": "beachball_generator.py",
+    "source_sha256": "058d13f635f4c76070c871a8ae5bd8972276a73e49afa85f2c4d456e305ee5f3"
+  },
+  {
+    "source": "FMNET/model_update/traindata_augment_sim2real.py",
+    "release": "traindata_augment_sim2real.py",
+    "source_sha256": "bd4e9d2b245491e1b62a64c365262c544bc7510e67f8f530de5e400a7f4c46cf"
+  },
+  {
+    "source": "FMNET/model_update/traindata_augment_sim2real_settransformer.py",
+    "release": "traindata_augment_sim2real_settransformer.py",
+    "source_sha256": "3bed23a1eda297c800c5844e9974474076b787d87ae8acbdc49db8b50d6ee38c"
+  },
+  {
+    "source": "FMNET/traindata_gen_utf8.py",
+    "release": "prepare_synthetic_sac.py",
+    "source_sha256": "ce70a4a9b7496a0502f8c8c7a5b804e0877462a0b002058f714238879bdc27f4"
+  },
+  {
+    "source": "instance_rawdata/GradeA_unlabeled_inference/build_grade_a_unlabeled.py",
+    "release": "preprocessing.py",
+    "source_sha256": "ff5363716a99f94a2fd9b2c86d773710de0b7e85bb8b44f0e074cf2f3223d945",
+    "note": "Extracted signal-processing and station-selection functions unchanged."
+  },
+  {
+    "source": "instance_transfer_learning/build_labeled_dataset.py",
+    "release": "build_labeled_dataset.py",
+    "source_sha256": "3043888c02f9d98870e1d3d750f427e0b9df27e1f48e2457b7e47afbde49d9f2"
+  },
+  {
+    "source": "instance_transfer_learning/mse_theory_transfer/finetune_mse.py",
+    "release": "finetune_mse.py",
+    "source_sha256": "a1a198407e44e6f78a2ce531c824b77d2be82fd3182c68d28886171d199c5d03"
+  }
+]

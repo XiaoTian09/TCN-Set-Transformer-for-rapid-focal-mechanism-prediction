@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-08",
+  "description": "Release file checksums; this manifest does not checksum itself.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 77,
+      "sha256": "9c3290126f9cef9433f7e2c04abbabe40cf65093dea698c6f93b14ac2b912548"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 142,
+      "sha256": "976558f542bb38687562f921b55789674c8ebdd298c0a6770658dcd9a09cfc2a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11135,
+      "sha256": "e17c54d9667321babef10e7363be57944e58ccd57a0edff44813b9c19a20ba28"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 6304,
+      "sha256": "18f4d0618dd489ed43a110cd2e6fc3ee376cb3f3607e8bc01df49fada642cba2"
+    },
+    {
+      "path": "beachball_generator.py",
+      "bytes": 9565,
+      "sha256": "25b62cde2b3846947e48c41c5cc3dd5a7de80a3484fcf6f9bd3dacc324aa3815"
+    },
+    {
+      "path": "beachball_sdr_optimized.py",
+      "bytes": 20536,
+      "sha256": "4ea228f5c10510fdd1e986a2d82d9b737d31e3820cfbc0c0d1a26f54357d21d5"
+    },
+    {
+      "path": "build_labeled_dataset.py",
+      "bytes": 10354,
+      "sha256": "b43e730d8d1a2681c56ab25d8e858e749a92d2bac2f4ea06266d05f701bd354d"
+    },
+    {
+      "path": "checkpoints/SHA256SUMS",
+      "bytes": 85,
+      "sha256": "c250faa2a54cc001eb5417d92ef02206af73a63648a81cc778842524b4c815ef"
+    },
+    {
+      "path": "checkpoints/best_checkpoint.pt",
+      "bytes": 13834833,
+      "sha256": "cb1ec3a4004fc2fde0b8535bd12614fb55fcdf1341d4ac2babd0e6ef7e342c9b"
+    },
+    {
+      "path": "compute_takeoff.py",
+      "bytes": 1947,
+      "sha256": "ad8fb697cc6ef9df8b86a30c0a1cf2c6e4ec67285a749392519f3654d2053e68"
+    },
+    {
+      "path": "configs/build_labeled.json",
+      "bytes": 393,
+      "sha256": "a6d36504db0e590776cbfbeb56472c6a006e590e81d6e242f4badf3b7b36952a"
+    },
+    {
+      "path": "configs/finetune.json",
+      "bytes": 582,
+      "sha256": "824d4f699b49655cac8f39dbe9fcecc96f90eabeeac0fa0e18072368f9b3e0b1"
+    },
+    {
+      "path": "docs/DATA_FORMAT.md",
+      "bytes": 6482,
+      "sha256": "d24e438cb126f749a86c3c3bbc0c9a327f13b1f2eae42f920f688ddf645a52de"
+    },
+    {
+      "path": "docs/MODEL_CARD.md",
+      "bytes": 3960,
+      "sha256": "c0587130e04087a124beb4bd7a50f1b730998ba1c4fce99aca3cd9b09f69156e"
+    },
+    {
+      "path": "docs/PUBLISH.md",
+      "bytes": 1073,
+      "sha256": "9df6ccef9cddbf5ef3f5aeae45fc459c8340fabe44926cd5762d0e60bb9648f2"
+    },
+    {
+      "path": "docs/RELEASE_NOTES.md",
+      "bytes": 3051,
+      "sha256": "c3d01d7d9fa53a501406000b4931f990e11007c1b15498e8bfbeb04be9d60c02"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 3764,
+      "sha256": "703c2b0c7f35cfa78b522596a9306697baffe767e9613478ed443766a5c070b6"
+    },
+    {
+      "path": "docs/source_manifest.json",
+      "bytes": 2406,
+      "sha256": "672d8c1ab182d477da11edab44a65af0909280505c0c92a86f3c2d2afc01c11f"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 254,
+      "sha256": "e0c4757f1bfb80a7586340864caf472f3c7fca39ccdab470da537bff98130760"
+    },
+    {
+      "path": "finetune_mse.py",
+      "bytes": 6978,
+      "sha256": "8b87ef3d1c58cf02a616ef87302e0aeedfc675e5c145378d8c2df97af99a045e"
+    },
+    {
+      "path": "model_sdr_sincos/angles2tensor.py",
+      "bytes": 1007,
+      "sha256": "37c6ff2503b920faa6fdbaa7992f0b2ef385a6ed5da65c38b60a8b1174d60a4f"
+    },
+    {
+      "path": "model_sdr_sincos/kagan.py",
+      "bytes": 2845,
+      "sha256": "1b59947dd7719da51a1d35eb4da8932b443bb49e341e6b7c4018537739bd4c95"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 5604,
+      "sha256": "d38ad3bf50c9586a54c5c0f16b4c0fdefaf399d1bee2f005bb1590634cbbcf44"
+    },
+    {
+      "path": "prepare_synthetic_sac.py",
+      "bytes": 15382,
+      "sha256": "5173e4f8d89ec1a4c37fd4cb4e4b28c3ea74941cbcd692c9380e460e4d9599bc"
+    },
+    {
+      "path": "prepare_waveforms.py",
+      "bytes": 5595,
+      "sha256": "41fab128dc9f19590911b4287b31eea283b62792b487a04246a672327864d8c1"
+    },
+    {
+      "path": "preprocessing.py",
+      "bytes": 4446,
+      "sha256": "995d25c127b0476fb5e532e0e7436e82aa22c03055f0841f4ba88f9e8659d845"
+    },
+    {
+      "path": "requirements-optional.txt",
+      "bytes": 71,
+      "sha256": "d55d35852d8b4f43b52d9a623e07c4e2f5c1547cf9840f7d2901fee359b47ac4"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 161,
+      "sha256": "410fdff4685f265a1670f7965052cde01e6f2dca1f2533d6118c8f87ce45abc4"
+    },
+    {
+      "path": "tests/test_optional.py",
+      "bytes": 3051,
+      "sha256": "0d387645262374857b8fcdbaee76b04626c7d22978ac5c729c98da086a1432e7"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 8942,
+      "sha256": "df0377a0d058968ebb6e19d452cf00911a54cda4967181cad00d4076f7265e01"
+    },
+    {
+      "path": "train_tcn_settransformer_beachball_mse_pytorch.py",
+      "bytes": 33762,
+      "sha256": "f1a28d091ea2997c52e9c57b7e473f61c75f136048c0ac5b16ffb69328aad1ab"
+    },
+    {
+      "path": "traindata_augment_sim2real.py",
+      "bytes": 23930,
+      "sha256": "5fcd8bbe4882a5d97c1844069ee868c17b7ce4408ed0dfccaebed5ff6223bd9e"
+    },
+    {
+      "path": "traindata_augment_sim2real_settransformer.py",
+      "bytes": 15176,
+      "sha256": "994a1771d0591333baa9c7d03ada7db6c8730fa0147b1d62110c6b74971aba25"
+    }
+  ]
+}

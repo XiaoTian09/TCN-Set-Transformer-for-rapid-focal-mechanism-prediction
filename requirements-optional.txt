@@ -1,0 +1,2 @@
+# Only needed for SAC input or takeoff-angle calculation.
+obspy==1.5.1

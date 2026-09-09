@@ -1,0 +1,17 @@
+{
+  "seed": 20260807,
+  "split_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "combinations_per_event": 5,
+  "max_azimuthal_gap_deg": 180.0,
+  "max_combination_overlap": 18,
+  "max_attempts": 2000,
+  "max_depth_km": 60.0,
+  "max_epicentral_distance_km": 200.0,
+  "metadata_csv": "data/metadata_with_takeoff.csv",
+  "waveforms_h5": "data/waveforms.h5",
+  "output_data_dir": "data/transfer"
+}
